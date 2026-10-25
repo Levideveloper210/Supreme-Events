@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Feedback | Supreme Events</title>
+<meta name="description" content="Share your experience with Supreme Events in Owerri.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10261f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2310261f'/%3E%3Ctext x='16' y='24' font-size='24' text-anchor='middle' fill='%23c19a55' font-family='Georgia'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="index.html">Supreme Events</a><nav aria-label="Main"><a href="index.html">Home</a><a href="services.html">Services</a><a href="feedback.html" aria-current="page">Feedback</a></nav></div></header>
+<main>
+<section class="head"><div class="wrap">
+<h1>Tell us how we did</h1>
+<p class="lead">Your feedback helps us serve you better.</p>
+</div></section>
+<section class="light"><div class="wrap" style="padding-top:64px;padding-bottom:64px">
+<form id="fb" novalidate>
+<div class="f"><label class="t" for="fn">Your name</label><input type="text" id="fn" maxlength="60" autocomplete="name"></div>
+<div class="f"><label class="t" for="fc">Phone or email (optional)</label><input type="text" id="fc" maxlength="80" autocomplete="off"></div>
+<div class="f"><span class="t" id="rl">Your rating</span>
+<div class="rate" role="radiogroup" aria-labelledby="rl">
+<input class="sr" type="radio" name="rating" id="r5" value="5"><label for="r5"><span class="sr">5 stars</span>&#9733;</label>
+<input class="sr" type="radio" name="rating" id="r4" value="4"><label for="r4"><span class="sr">4 stars</span>&#9733;</label>
+<input class="sr" type="radio" name="rating" id="r3" value="3"><label for="r3"><span class="sr">3 stars</span>&#9733;</label>
+<input class="sr" type="radio" name="rating" id="r2" value="2"><label for="r2"><span class="sr">2 stars</span>&#9733;</label>
+<input class="sr" type="radio" name="rating" id="r1" value="1"><label for="r1"><span class="sr">1 star</span>&#9733;</label>
+</div></div>
+<div class="f"><label class="t" for="fm">Your feedback</label><textarea id="fm" maxlength="600"></textarea></div>
+<p class="err" id="err" role="alert"></p>
+<button class="btn fill" type="submit">Send feedback</button>
+</form>
+<div id="ok" class="thanks" hidden tabindex="-1">
+<h2>Thank you</h2>
+<p class="lead">Your feedback is ready. WhatsApp should open with your message. If it does not, use the button below.</p>
+<a id="wl" class="btn fill" href="https://wa.me/2348063440543" target="_blank" rel="noopener">Send on WhatsApp</a>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>&copy; 2026 Supreme Events, Owerri</span><a href="tel:+2348063440543">08063440543</a></div></footer>
+<a class="wa" href="https://wa.me/2348063440543?text=Hello%20Supreme%20Events%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener" aria-label="Chat with Supreme Events on WhatsApp"></a>
+<script src="feedback.js" defer></script>
+</body>
+</html>
